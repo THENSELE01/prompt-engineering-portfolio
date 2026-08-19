@@ -2,63 +2,92 @@
 
 ## Overview
 
-This project demonstrates how prompt quality can be improved through structured prompt engineering.
+This project investigates how prompt design affects the quality, structure, reliability, and transparency of Large Language Model (LLM) responses.
 
-The same task will be given to different prompt versions and the resulting outputs will be compared.
+A Junior AI Support Specialist job description was analysed using three progressively improved prompt versions.
 
-The objective is to understand how prompt structure, context, constraints, and output requirements affect the quality and consistency of Large Language Model (LLM) responses.
+The experiment was designed to demonstrate practical prompt-engineering techniques rather than simply producing a single AI response.
 
-## Problem Statement
+## Objective
 
-A user wants an AI assistant to analyse a job description and provide useful information for improving a candidate's job application.
+The objective was to determine whether increasing prompt structure, constraints, evidence requirements, and evaluation criteria could improve the quality and reliability of an LLM response.
 
-A poorly designed prompt may produce generic or inconsistent results.
+## Experimental Method
 
-This project explores how systematic prompt design can improve the response.
+The same job description was provided to three prompt versions.
 
-## Prompt Versions
+The prompts were tested using Claude.
 
-### Version 1 — Basic Prompt
+### V1 — Basic Prompt
 
-The first prompt provides only a simple instruction.
+A simple instruction with minimal context and no defined output structure.
 
-### Version 2 — Structured Prompt
+### V2 — Structured Prompt
 
-The second prompt introduces:
+Added:
 
-* Role
+* Role definition
 * Context
-* Task
+* Explicit tasks
 * Constraints
-* Expected output
+* Output format
+* Prioritisation
+* Instructions to avoid unsupported assumptions
 
-### Version 3 — Advanced Prompt
+### V3 — Advanced Prompt
 
-The final prompt introduces additional requirements such as:
+Added:
 
-* Structured output
-* Clear evaluation criteria
-* Relevant keyword identification
-* Skills-gap analysis
-* Actionable recommendations
-* Avoiding unsupported assumptions
+* Evidence grounding
+* Uncertainty handling
+* Separation of evidence and recommendations
+* Quality-control rules
+* Structured extraction
+* Output scoring
 
-## Evaluation
+## Results
 
-The prompts will be compared using the following criteria:
+The experiment showed a progression from a general AI response toward a more structured and transparent analysis.
 
-| Criterion    | Description                                      |
-| ------------ | ------------------------------------------------ |
-| Relevance    | Does the response address the task?              |
-| Accuracy     | Does the response avoid unsupported information? |
-| Completeness | Does it cover the important information?         |
-| Structure    | Is the response easy to understand?              |
-| Consistency  | Can the prompt produce reliable results?         |
-| Usefulness   | Can the output help the user take action?        |
+### V1
 
-## Expected Outcome
+Produced a useful baseline response but provided limited control over structure and assumptions.
 
-The project aims to demonstrate that carefully designed prompts can produce more useful, structured, and consistent AI responses than simple instructions.
+### V2
+
+Improved organisation and consistency through explicit tasks, constraints, and output formatting.
+
+### V3
+
+Added stronger evidence controls, uncertainty detection, separation of evidence from recommendations, and an evaluation framework.
+
+## Key Finding
+
+Prompt engineering is not simply about writing a clever instruction.
+
+Effective prompt design can involve:
+
+* Defining the role
+* Providing context
+* Breaking tasks into clear instructions
+* Setting constraints
+* Controlling output structure
+* Grounding responses in evidence
+* Handling uncertainty
+* Evaluating output quality
+
+## Project Files
+
+| File                      | Purpose                                        |
+| ------------------------- | ---------------------------------------------- |
+| `test-data.md`            | Experimental job description and test scenario |
+| `prompt-v1-basic.md`      | Baseline prompt                                |
+| `results-v1.md`           | V1 experiment results                          |
+| `prompt-v2-structured.md` | Structured prompt                              |
+| `results-v2.md`           | V2 experiment results                          |
+| `prompt-v3-advanced.md`   | Advanced prompt                                |
+| `results-v3.md`           | V3 experiment results                          |
+| `comparison.md`           | V1 vs V2 vs V3 comparison                      |
 
 ## Skills Demonstrated
 
@@ -66,10 +95,18 @@ The project aims to demonstrate that carefully designed prompts can produce more
 * Prompt Optimization
 * Structured Prompting
 * LLM Evaluation
+* Evidence Grounding
 * Output Design
+* Uncertainty Handling
 * Critical Thinking
 * AI-Assisted Problem Solving
 
+## Limitations
+
+This experiment used one job description and primarily one LLM environment.
+
+Additional testing across multiple job descriptions and different LLMs would be required to determine whether the observed improvements generalise to other use cases.
+
 ## Status
 
-🚧 In progress
+✅ Completed
