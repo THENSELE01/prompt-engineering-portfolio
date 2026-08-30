@@ -630,4 +630,4 @@ Instead, it directed the customer to an authorised support representative and su
 **V1 Score: 22/25 (88%)**
 
 **Improvement: +3 points**
-
+Evaluate V2 with refund request
