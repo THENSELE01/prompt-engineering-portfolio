@@ -211,4 +211,55 @@ V2 should include stronger rules preventing the AI from:
 
 ### Result
 
+**V1 Score: 22/25 (88%)**---
+
+## Test Case 04 — Wrong Product
+
+### AI Model
+Claude
+
+### Customer Message
+
+"I ordered a black shirt but received a white one. How can I get the correct item?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 3/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 4/5 |
+| **Total** | **22/25** |
+
+### Strengths
+
+- The response acknowledged the customer's problem.
+- It maintained a professional and empathetic tone.
+- It provided practical information the customer could provide.
+- It clearly explained possible resolution options.
+
+### Weaknesses Identified
+
+The response implied that the AI could access order details, check product stock, and arrange the correct product for delivery.
+
+It also suggested a return-label and exchange process without being given an actual company return or exchange policy.
+
+### Improvement Required for V2
+
+V2 should clearly separate guidance from actions that require access to company systems.
+
+The AI should not claim that it can:
+
+- Access customer orders.
+- Check stock.
+- Arrange shipments.
+- Create return labels.
+- Process exchanges or refunds.
+
+The AI should also avoid inventing company policies when no policy information has been provided.
+
+### Result
+
 **V1 Score: 22/25 (88%)**
