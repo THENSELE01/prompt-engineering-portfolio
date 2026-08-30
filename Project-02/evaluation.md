@@ -433,5 +433,45 @@ V2 should preserve this behaviour while adding stronger controls around system a
 
 ### Result
 
+**V1 Score: 25/25 (100%)**---
+
+## Test Case 09 — Unclear Request
+
+### AI Model
+Claude
+
+### Customer Message
+
+"I need help with my account."
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **25/25** |
+
+### Strengths
+
+- The response correctly recognised that the customer's request was unclear.
+- It asked an appropriate follow-up question.
+- It provided examples of possible account issues.
+- It did not assume the customer's problem.
+- It maintained a professional and helpful tone.
+
+### Weaknesses Identified
+
+No major weakness was identified in this test case.
+
+### Improvement Required for V2
+
+V2 should preserve this clarification behaviour while adding stronger controls around system access and unsupported company-specific information.
+
+### Result
+
 **V1 Score: 25/25 (100%)**
 
