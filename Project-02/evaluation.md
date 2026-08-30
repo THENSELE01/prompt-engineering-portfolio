@@ -391,5 +391,47 @@ V2 should preserve the strong empathetic tone while preventing the AI from claim
 
 ### Result
 
-**V1 Score: 22/25 (88%)**
+**V1 Score: 22/25 (88%)**---
+
+## Test Case 08 — Unknown Question
+
+### AI Model
+Claude
+
+### Customer Message
+
+"Do you sell products that are available only in other countries?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **25/25** |
+
+### Strengths
+
+- The response clearly acknowledged that reliable information was not available.
+- It did not invent a company policy or product availability information.
+- It asked useful follow-up questions.
+- It maintained a professional and helpful tone.
+- It followed the instruction not to make up information.
+
+### Weaknesses Identified
+
+No major weakness was identified in this test case.
+
+However, the response still depends on the AI having access to accurate company information before it can provide a definitive answer.
+
+### Improvement Required for V2
+
+V2 should preserve this behaviour while adding stronger controls around system access and company-specific policies.
+
+### Result
+
+**V1 Score: 25/25 (100%)**
 
