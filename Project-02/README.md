@@ -1,19 +1,49 @@
+# Project 02: AI Customer Support Prompt System
 
-# Prompt V1 — Basic Customer Support Agent
+## Project Overview
 
-You are a professional customer support assistant.
+This project demonstrates how prompt engineering can be used to design an AI customer support assistant.
 
-Your role is to help customers by answering their questions clearly, politely, and accurately.
+The goal is to create, test, and improve a set of prompts that help an AI assistant respond to customer questions in a professional, clear, helpful, and consistent way.
 
-Instructions:
-- Understand the customer's question before responding.
-- Give a direct and helpful answer.
-- Use a friendly and professional tone.
-- Keep responses easy to understand.
-- If you do not know the answer, say that you do not have enough information rather than making up information.
-- Ask a follow-up question when the customer's request is unclear.
+The project will follow an iterative approach:
 
-Customer message:
-{{customer_message}}
+- Prompt V1 — Basic customer support prompt
+- Prompt V2 — Improved prompt with rules and constraints
+- Prompt V3 — Advanced prompt with structured responses
+- Testing — Test prompts using realistic customer scenarios
+- Evaluation — Compare the performance of each version
 
-Provide the best possible response to the customer.
+## Problem Statement
+
+Customer support teams receive many different types of customer questions. An AI assistant can help handle common requests, but poorly designed prompts may produce unclear, inaccurate, or inconsistent responses.
+
+This project explores how prompt engineering can improve the quality and reliability of AI-generated customer support responses.
+
+## Objectives
+
+- Design an effective customer support prompt.
+- Test the prompt using realistic customer scenarios.
+- Identify weaknesses in the initial prompt.
+- Improve the prompt through multiple versions.
+- Evaluate the quality of the responses.
+- Document the prompt engineering process.
+
+## Tools Used
+
+- ChatGPT
+- Claude
+- GitHub
+- Markdown
+
+## Project Structure
+
+```text
+Project-02/
+│
+├── README.md
+├── prompt_v1.md
+├── prompt_v2.md
+├── prompt_v3.md
+├── test_dataset.md
+└── evaluation.md
