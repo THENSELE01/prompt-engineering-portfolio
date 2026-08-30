@@ -309,4 +309,45 @@ V2 should prevent the AI from:
 
 ### Result
 
-**V1 Score: 22/25 (88%)**
+**V1 Score: 22/25 (88%)*---
+
+## Test Case 06 — Missing Information
+
+### AI Model
+Claude
+
+### Customer Message
+
+"Can you check my order?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 4/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 4/5 |
+| **Total** | **23/25** |
+
+### Strengths
+
+- The response correctly recognised that more information was required.
+- It asked for the order number.
+- It requested additional identifying information.
+- It remained polite and professional.
+- It did not attempt to guess the order details.
+
+### Weakness Identified
+
+The response stated that it would "look into" the order and provide the status, even though the AI does not have access to an order management system.
+
+### Improvement Required for V2
+
+V2 should maintain the good behaviour of asking for missing information while clearly stating when the AI cannot directly access or verify customer order information.
+
+### Result
+
+**V1 Score: 23/25 (92%)**
+
