@@ -631,3 +631,40 @@ Instead, it directed the customer to an authorised support representative and su
 
 **Improvement: +3 points**
 Evaluate V2 with refund request
+---
+
+## V2 Test Case 03 — Damaged Product
+
+### AI Model
+Claude
+
+### Customer Message
+
+"My package arrived today, but the product inside is damaged. What can I do?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **25/25** |
+
+### Improvements Over V1
+
+V2 clearly stated that it did not have access to the order system or the specific damaged-item policy.
+
+Unlike V1, it did not claim that the customer was automatically entitled to a refund or replacement.
+
+It provided useful documentation advice while leaving the final resolution to an authorised support representative.
+
+### Result
+
+**V2 Score: 25/25 (100%)**
+
+**V1 Score: 22/25 (88%)**
+
+**Improvement: +3 points**
