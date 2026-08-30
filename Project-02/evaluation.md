@@ -589,5 +589,45 @@ V2 also avoided making unsupported claims about refunds or replacements.
 
 **Improvement: +2 points**
 
-**V1 Score: 24/25 (96%)**
+**V1 Score: 24/25 (96%)**---
+
+## V2 Test Case 02 — Refund Request
+
+### AI Model
+Claude
+
+### Customer Message
+
+"I want a refund for my order. How can I request one?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **25/25** |
+
+### Improvements Over V1
+
+V2 clearly explained that it does not have access to order or payment systems.
+
+It did not claim that the customer's order qualified for a refund.
+
+It did not invent a refund policy.
+
+It did not claim that it could process the refund.
+
+Instead, it directed the customer to an authorised support representative and suggested checking the order confirmation for available refund instructions.
+
+### Result
+
+**V2 Score: 25/25 (100%)**
+
+**V1 Score: 22/25 (88%)**
+
+**Improvement: +3 points**
 
