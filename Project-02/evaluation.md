@@ -349,5 +349,47 @@ V2 should maintain the good behaviour of asking for missing information while cl
 
 ### Result
 
-**V1 Score: 23/25 (92%)**
+**V1 Score: 23/25 (92%)**---
+
+## Test Case 07 — Angry Customer
+
+### AI Model
+Claude
+
+### Customer Message
+
+"This is ridiculous! I've been waiting for my order for two weeks and nobody is helping me!"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 3/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 4/5 |
+| **Total** | **22/25** |
+
+### Strengths
+
+- The response acknowledged the customer's frustration.
+- It maintained a calm and professional tone.
+- It requested the order number.
+- It attempted to provide a path toward resolution.
+- The response was clear and easy to understand.
+
+### Weaknesses Identified
+
+The response claimed that the AI could check the customer's order status and work on resolving the issue.
+
+It also suggested actions such as expediting the shipment or discussing a refund without access to an order system or company-specific policies.
+
+### Improvement Required for V2
+
+V2 should preserve the strong empathetic tone while preventing the AI from claiming that it can access systems, modify orders, expedite shipments, or process refunds.
+
+### Result
+
+**V1 Score: 22/25 (88%)**
 
