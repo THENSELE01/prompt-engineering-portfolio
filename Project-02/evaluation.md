@@ -512,5 +512,44 @@ V2 should preserve this clarification behaviour while adding stronger controls a
 
 ### Result
 
-**V1 Score: 25/25 (100%)**
+**V1 Score: 25/25 (100%)**---
+
+## Test Case 10 — Simple Question
+
+### AI Model
+Claude
+
+### Customer Message
+
+"What are your customer support hours?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 4/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **24/25** |
+
+### Strengths
+
+- The response did not invent customer support hours.
+- It clearly acknowledged that the information was unavailable.
+- It maintained a professional tone.
+- It suggested a useful way to clarify the customer's needs.
+
+### Weakness Identified
+
+The response could have been more direct about the AI's limitation instead of asking another question before clearly explaining that the support hours were unavailable.
+
+### Improvement Required for V2
+
+V2 should maintain the rule against inventing information while encouraging concise and direct responses when required information is unavailable.
+
+### Result
+
+**V1 Score: 24/25 (96%)**
 
