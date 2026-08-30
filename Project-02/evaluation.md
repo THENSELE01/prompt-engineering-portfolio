@@ -549,7 +549,45 @@ The response could have been more direct about the AI's limitation instead of as
 
 V2 should maintain the rule against inventing information while encouraging concise and direct responses when required information is unavailable.
 
+### Result---
+
+# V2 Evaluation
+
+## Test Case 01 — Late Delivery
+
+### AI Model
+Claude
+
+### Customer Message
+
+"My order was supposed to arrive yesterday, but I still haven't received it. What should I do?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 5/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 5/5 |
+| **Total** | **25/25** |
+
+### Improvements Over V1
+
+V2 clearly stated that it did not have access to order tracking or shipment systems.
+
+Unlike V1, it did not imply that it could check the customer's order or investigate the delivery directly.
+
+V2 also avoided making unsupported claims about refunds or replacements.
+
 ### Result
+
+**V2 Score: 25/25 (100%)**
+
+**V1 Score: 23/25 (92%)**
+
+**Improvement: +2 points**
 
 **V1 Score: 24/25 (96%)**
 
