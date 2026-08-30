@@ -262,4 +262,51 @@ The AI should also avoid inventing company policies when no policy information h
 
 ### Result
 
+**V1 Score: 22/25 (88%)**---
+
+## Test Case 05 — Cancel Order
+
+### AI Model
+Claude
+
+### Customer Message
+
+"I just placed an order but I changed my mind. Can I cancel it?"
+
+### Evaluation
+
+| Criterion | Score |
+|---|---:|
+| Accuracy | 3/5 |
+| Helpfulness | 5/5 |
+| Professional Tone | 5/5 |
+| Clarity | 5/5 |
+| Instruction Following | 4/5 |
+| **Total** | **22/25** |
+
+### Strengths
+
+- The response was polite and professional.
+- It recognised that cancellation may depend on the order status.
+- It requested the order number.
+- It provided possible next steps clearly.
+
+### Weaknesses Identified
+
+The response implied that the AI could check the order status and cancel the order.
+
+It also stated that a full refund could typically be processed and suggested refusing delivery or returning the item without access to the company's actual cancellation and refund policies.
+
+### Improvement Required for V2
+
+V2 should prevent the AI from:
+
+- Claiming access to order systems.
+- Claiming it can cancel orders.
+- Claiming it can process refunds.
+- Assuming cancellation, return, or refund policies.
+- Presenting unsupported company policies as facts.
+
+### Result
+
 **V1 Score: 22/25 (88%)**
